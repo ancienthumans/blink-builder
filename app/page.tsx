@@ -61,12 +61,12 @@ export default function Home() {
               <BlinkCopyDialogButton data={data} />
               <BlinkEditorSheetButton data={data} setData={setData} />
             </div>
-            <Tabs defaultValue="Basic">
+            <Tabs defaultValue="Dial.to">
               <TabsList className="grid grid-cols-2">
-                <TabsTrigger value="Basic">Basic</TabsTrigger>
+                <TabsTrigger value="Dial.to">Dial.to</TabsTrigger>
                 <TabsTrigger value="Twitter">Twitter</TabsTrigger>
               </TabsList>
-              <TabsContent value="Basic">
+              <TabsContent value="Dial.to">
                 <BlinkCard data={data} />
               </TabsContent>
               <TabsContent value="Twitter">
