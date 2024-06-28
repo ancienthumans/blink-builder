@@ -100,7 +100,7 @@ export function BlinkTwitterCard({ data }: { data: ActionGetResponse }) {
                   >
                     <input
                       placeholder={action.parameters?.[0].label}
-                      className="ml-4 flex-1 bg-transparent truncate outline-none placeholder:text-[#3d4144]"
+                      className="ml-4 flex-1 bg-transparent truncate outline-none placeholder:text-neutral-500 text-white"
                     />
                     <div className="my-1.5 mr-1.5">
                       <Button variant={"twitter"}>{action.label}</Button>
